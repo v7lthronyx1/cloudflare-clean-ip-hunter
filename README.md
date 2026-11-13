@@ -40,13 +40,13 @@ Termux رو از F-Droid یا گیت‌هاب خودش نصب کن (نسخه‌�
 
 ```bash
 pkg install python
-curl -fsSLO https://github.com/v74all/cloudflare-clean-ip-hunter/releases/latest/download/scanner.py
+curl -fsSLO https://github.com/w59520760-sketch/cloudflare-clean-ip-hunter/releases/latest/download/scanner.py
 python scanner.py -d your.domain.com
 ```
 
 ### ویندوز
 
-پایتون رو از [python.org](https://www.python.org/downloads/) نصب کن (موقع نصب تیک `Add python.exe to PATH` رو بزن). فایل `scanner.py` رو از بخش [Releases](https://github.com/v74all/cloudflare-clean-ip-hunter/releases/latest) دانلود کن، توی همون پوشه CMD یا PowerShell باز کن و بزن:
+پایتون رو از [python.org](https://www.python.org/downloads/) نصب کن (موقع نصب تیک `Add python.exe to PATH` رو بزن). فایل `scanner.py` رو از بخش [Releases](https://github.com/w59520760-sketch/cloudflare-clean-ip-hunter/releases/latest) دانلود کن، توی همون پوشه CMD یا PowerShell باز کن و بزن:
 
 ```
 py scanner.py -d your.domain.com
@@ -55,8 +55,8 @@ py scanner.py -d your.domain.com
 ### لینوکس و مک
 
 ```bash
-curl -fsSLO https://github.com/v74all/cloudflare-clean-ip-hunter/releases/latest/download/scanner.py
-curl -fsSLO https://github.com/v74all/cloudflare-clean-ip-hunter/releases/latest/download/SHA256SUMS
+curl -fsSLO https://github.com/w59520760-sketch/cloudflare-clean-ip-hunter/releases/latest/download/scanner.py
+curl -fsSLO https://github.com/w59520760-sketch/cloudflare-clean-ip-hunter/releases/latest/download/SHA256SUMS
 sha256sum -c SHA256SUMS       # مک: shasum -a 256 -c SHA256SUMS
 python3 scanner.py -d your.domain.com
 ```
@@ -148,7 +148,7 @@ What it checks on every IP, exactly like a client would: a TCP connect (timed: t
 One file, Python 3.8+ standard library only. Tested on Ubuntu 24.04 (Python 3.12), Debian 12 (3.11), Python 3.8 and 3.14.
 
 ```bash
-curl -fsSLO https://github.com/v74all/cloudflare-clean-ip-hunter/releases/latest/download/scanner.py
+curl -fsSLO https://github.com/w59520760-sketch/cloudflare-clean-ip-hunter/releases/latest/download/scanner.py
 python3 scanner.py -d your.domain.com
 python3 scanner.py --link 'vless://...' --speed
 python3 scanner.py --link 'vless://...' -q        # only the ready links
